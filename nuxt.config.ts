@@ -36,5 +36,10 @@ export default defineNuxtConfig({
     }
   },
 
-  compatibilityDate: '2025-04-02'
+  compatibilityDate: '2025-04-02',
+
+  // 強制使用 node-server preset（避免 Zeabur 自動偵測問題）
+  nitro: {
+    preset: 'node-server'
+  }
 })
