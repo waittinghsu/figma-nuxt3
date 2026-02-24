@@ -40,6 +40,6 @@ export default defineNuxtConfig({
 
   // 強制使用 node-server preset（避免 Zeabur 自動偵測問題）
   nitro: {
-    preset: 'zeabur'
+    preset: 'node-server'
   }
 })
