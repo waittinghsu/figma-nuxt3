@@ -21,8 +21,8 @@ export default defineNuxtConfig({
         { name: 'description', content: '探索最新的設計與開發資源' }
       ],
       link: [
-        { 
-          rel: 'stylesheet', 
+        {
+          rel: 'stylesheet',
           href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'
         }
       ]
@@ -40,6 +40,6 @@ export default defineNuxtConfig({
 
   // 強制使用 node-server preset（避免 Zeabur 自動偵測問題）
   nitro: {
-    preset: 'node-server'
+    preset: 'zeabur'
   }
 })
